@@ -21,7 +21,7 @@ jobs:
           folder: content-web
           branch: main
           tag: ${{ github.sha }}
-      - name: Azure login
+      - name: Azure login 
         id: login
         uses: azure/login@v1.4.3
         with:
